@@ -24,8 +24,6 @@ public class BrowserTest {
 		System.out.println(text);
 		Assert.assertTrue(text.equalsIgnoreCase("Batman"));
 		driver.close();
-	
-		
 		
 	}
 }
